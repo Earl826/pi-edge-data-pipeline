@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: stg_climate_data
+    columns:
+      - name: logged_at
+        tests:
+          - unique
+          - not_null
+
+  - name: mart_hourly_climate
+    columns:
+      - name: hour_bucket
+        tests:
+          - unique
+          - not_null
