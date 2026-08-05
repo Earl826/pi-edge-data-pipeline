@@ -1,0 +1,6 @@
+climate_pipeline:
+  outputs:
+    dev:
+      type: duckdb
+      path: /home/earl123/climate.duckdb
+  target: dev
