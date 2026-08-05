@@ -17,4 +17,19 @@ An end-to-end local data engineering pipeline running entirely on a Raspberry Pi
 
 ## Why this architecture?
 By processing the data locally on the edge device using DuckDB, we eliminate the network latency and cloud compute costs associated with streaming raw IoT data directly to a cloud data warehouse. Only aggregated, analytical-ready data is stored and visualised.
-<img width="4080" height="3072" alt="PXL_20260805_184648902" src="https://github.com/user-attachments/assets/88791041-ab50-4164-9dc9-58024365f115" />
+
+## Hardware Setup
+<img width="4080" height="3072" alt="Raspberry Pi 5 connected to BME280 Environmental Sensor" src="https://github.com/user-attachments/assets/88791041-ab50-4164-9dc9-58024365f115" />
+
+## Live Grafana Dashboard
+### Temperature
+<img width="677" height="296" alt="Temperature" src="https://github.com/user-attachments/assets/ef226e36-f18f-4b2a-b8b1-9efafda609e9" />
+
+### Pressure
+<img width="668" height="344" alt="Pressure" src="https://github.com/user-attachments/assets/b338bf9c-36c0-44c4-af62-cf3a9f92e7f7" />
+
+### Humidity
+<img width="660" height="383" alt="Humidity" src="https://github.com/user-attachments/assets/58b6d7d8-1813-4fb7-8c67-58b1dd8be0d4" />
+
+
+
