@@ -17,3 +17,4 @@ An end-to-end local data engineering pipeline running entirely on a Raspberry Pi
 
 ## Why this architecture?
 By processing the data locally on the edge device using DuckDB, we eliminate the network latency and cloud compute costs associated with streaming raw IoT data directly to a cloud data warehouse. Only aggregated, analytical-ready data is stored and visualized.
+<img width="4080" height="3072" alt="PXL_20260805_184648902" src="https://github.com/user-attachments/assets/88791041-ab50-4164-9dc9-58024365f115" />
