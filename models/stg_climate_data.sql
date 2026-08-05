@@ -5,4 +5,4 @@ SELECT
 	temperature_c,
 	humidity_percent,
 	pressure_hpa
-FROM read_json_auto('/home/earl123/raw_data/*.jsonl')
+FROM read_json_auto('/home/earl123/climate_pipeline/raw_data/*.jsonl')
